@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "customizr": "^1.0.0-alpha",
+    "firebase-tools": "^3.16.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },
