@@ -1,0 +1,24 @@
+.CTA {
+    
+}
+
+.CTA:hover {
+    color: #2196f3;
+}
+
+.CTA a {
+    text-decoration: none;
+    color: #2196f3;
+}
+
+.CTA a:hover {
+    color: #2196f3;
+}
+
+.CTA a:visited {
+    color: #2196f3;
+}
+
+.CTA .hire-me {
+    text-align: center;
+}

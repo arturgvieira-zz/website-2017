@@ -1,0 +1,44 @@
+.About {
+
+}
+
+.About .grid {
+    display: flex;
+}
+
+.About h3 {
+    text-align: left;
+}
+
+.About .about-me {
+    flex-grow: 2;
+    flex-shrink: 1;
+    background: white;
+    margin: 15px;
+    padding: 25px;
+    border: #eeeeee 1px solid;
+    border-bottom : #2196f3 5px solid;
+}
+
+.About .about-me .stack {
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+}
+
+.About .about-history {
+    flex-grow: 1;
+    flex-shrink: 2;
+    margin: 15px;
+    padding: 25px;
+    background: white;
+    border: #eeeeee 1px solid;
+    border-bottom : #2196f3 5px solid;
+}
+
+@media screen and (max-width: 1000px) {
+    .About .grid {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
